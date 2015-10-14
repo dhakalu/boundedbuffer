@@ -31,7 +31,7 @@ public class BoundedBuffer<E>{
     private int mOut;
 
     /**
-     * Semaphore that makes sure that consumer and producer are mutually exclusive
+     * Semaphore that makes sure that two consumers or two producers are mutually exclusive
      */
     private Semaphore mMutex;
     /**
